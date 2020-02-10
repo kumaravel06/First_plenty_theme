@@ -1,0 +1,26 @@
+{
+    "version"           :   "1.0.0",
+    "license"           :   "GPL-3.0",
+    "name"              :   "BrandcrockSampleTheme",
+    "marketplaceName"   :   {"de":"BrandcrockSampleTheme","en":"BrandcrockSampleTheme"},
+    "description"       :   "Sample Theme for frontend",
+    "shortDescription"  :   { "de": "Sample Theme for frontend", "en": "Sample Theme for frontend" },
+    "namespace"         :   "BrandcrockSampleTheme",
+    "author"            :   "plentymarkets GmbH",
+    "keywords"          :   ["plentymarkets", "plugins", "layout", "theme"],
+    "price"             :   0,
+    "categories"        :   [3518],
+    "type"              :   "theme",
+    "require"           :   [],
+    "javaScriptFiles": [],
+	"containers": [],
+    "serviceProvider"   :   "BrandcrockSampleTheme\\Providers\\BrandcrockSampleThemeServiceProvider",
+    "dataProviders"     :
+    [
+        {
+            "key"           :"BrandcrockSampleTheme\\Containers\\BrandcrockSampleThemeContainer",
+            "name"          :"Bc Homepage",
+            "description"   :"Add changes to the CSS file"
+        }
+    ]
+}
