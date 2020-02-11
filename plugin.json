@@ -11,7 +11,7 @@
     "price"             :   0,
     "categories"        :   [3518],
     "type"              :   "theme",
-    "require"           :   [],
+    "require"           :   ["Ceres"],
     "javaScriptFiles": [],
 	"containers": [],
     "serviceProvider"   :   "BrandcrockSampleTheme\\Providers\\BrandcrockSampleThemeServiceProvider",
