@@ -1,6 +1,5 @@
 {
     "version"           :   "1.0.0",
-    "license"           :   "GPL-3.0",
     "name"              :   "BrandcrockSampleTheme",
     "marketplaceName"   :   {"de":"BrandcrockSampleTheme","en":"BrandcrockSampleTheme"},
     "description"       :   "Sample Theme for frontend",
@@ -9,11 +8,9 @@
     "author"            :   "plentymarkets GmbH",
     "keywords"          :   ["plentymarkets", "plugins", "layout", "theme"],
     "price"             :   0,
-    "categories"        :   [3518],
     "type"              :   "theme",
     "require"           :   ["Ceres"],
-    "javaScriptFiles": [],
-	"containers": [],
+    "containers": [],
     "serviceProvider"   :   "BrandcrockSampleTheme\\Providers\\BrandcrockSampleThemeServiceProvider",
     "dataProviders"     :
     [
