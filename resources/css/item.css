@@ -1113,8 +1113,8 @@
 	 transform: scale(1);
 }
 
-.cmp-product-thumb .add-to-basket-lg-container:hover{
-border-color:#f47795;
+.square-container:hover .cmp-product-thumb .add-to-basket-lg-container{
+border-color: transparent #f47795 transparent transparent;
 }
  .product--box:hover .product--detail-btn {
 	 box-shadow: 0 0 8px 0 #f76583, 0 0 0 0 rgba(255,255,255,0.19) inset;
