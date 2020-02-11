@@ -1068,7 +1068,7 @@
 	 font-family: Merienda, cursive;
 	 font-size: 32px;
 }
- .product--box .box--content {
+ .square-container {
 	 -webkit-transition: all .5s ease;
 	 -moz-transition: all .5s ease;
 	 -ms-transition: all .5s ease;
@@ -1077,7 +1077,7 @@
 	 min-height: 300px;
 	 padding: 6px;
 }
- .product--box .box--content:after, .product--box .box--content:before {
+.square-container:after, .square-container:before {
 	 content: '';
 	 position: absolute;
 	 left: 0;
@@ -1092,7 +1092,7 @@
 	 transition: opacity .35s, transform .35s;
 	 z-index: -1;
 }
- .product--box .box--content:after {
+.square-container:after {
 	 border-bottom: 1px solid ;
 	 -webkit-transform: scale(0,1);
 	 -moz-transform: scale(0,1);
@@ -1107,7 +1107,7 @@
 	 -o-box-shadow: inset 0 0 10px ;
 	 box-shadow: inset 0 0 10px ;
 }
- .product--box .box--content:hover:after, .product--box .box--content:hover:before {
+.square-container:hover:after, .square-container:hover:before {
 	 opacity: 1;
 	 -webkit-transform: scale(1);
 	 transform: scale(1);
