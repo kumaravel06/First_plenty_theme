@@ -1113,7 +1113,7 @@
 	 transform: scale(1);
 }
 
-.square-container:hover .cmp-product-thumb .add-to-basket-lg-container{
+.square-container:hover .add-to-basket-lg-container{
 border-color: transparent #f47795 transparent transparent;
 }
  .product--box:hover .product--detail-btn {
