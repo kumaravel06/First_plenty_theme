@@ -1195,7 +1195,7 @@
  .last-seen-products--item.product-slider--item.cmp-product-thumb.box--slider {
 	 padding: 6px;
 }
- .cmp-product-thumb:hover .product--title {
+ .cmp-product-thumb:hover .thumb-title {
 	 color: #f47795;
 }
  .cmp-product-thumb .product--price .price--default, .cmp-product-thumb .thumb-title{
