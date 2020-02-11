@@ -1093,7 +1093,7 @@
 	 z-index: 1;
 }
 .thumb-inner:after {
-	border-bottom: 1px solid #f47795;
+     border-bottom: 1px solid #f47795;
     -webkit-transform: scale(0, 1);
     -moz-transform: scale(0, 1);
     -ms-transform: scale(0, 1);
@@ -1114,8 +1114,9 @@
 }
 
 .thumb-inner:hover .add-to-basket-lg-container{
-border-color: transparent #f47795 transparent transparent;
-}
+     border-color: transparent #f47795 transparent transparent;
+ }
+
  .product--box:hover .product--detail-btn {
 	 box-shadow: 0 0 8px 0 #f76583, 0 0 0 0 rgba(255,255,255,0.19) inset;
 	 -webkit-box-shadow: 0 0 8px 0 #f76583, 0 0 0 0 rgba(255,255,255,0.19) inset;
