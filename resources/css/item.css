@@ -1304,4 +1304,18 @@
 	 background-color: !important;
 	 background: !important;
 }
- 
+ .cmp-product-thumb .thumb-title {
+    height: 40px;
+    height: 2.5rem;
+    margin: 0px 0px 5px 0px;
+    margin: 0rem 0rem .3125rem 0rem;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20px;
+    line-height: 1.25rem;
+    display: block;
+    width: 100%;
+    color: #034c4f;
+    font-weight: 700;
+    overflow: hidden;
+}
