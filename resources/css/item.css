@@ -1076,6 +1076,11 @@
 	 transition: all .5s ease;
 	 min-height: 300px;
 	 padding: 6px;
+	 padding: 10px 10px 10px 10px;
+         padding: .625rem .625rem .625rem .625rem;
+         height: 100%;
+         border: 1px solid #dadae5;
+         position: relative;
 }
 .cmp-product-thumb .thumb-inner:after, .cmp-product-thumb .thumb-inner:before {
 	 content: '';
