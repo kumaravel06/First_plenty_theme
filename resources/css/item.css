@@ -1077,7 +1077,9 @@
 	 font-family: Merienda, cursive;
 	 font-size: 32px;
 }
-
+.cmp-product-thumb .thumb-background {
+	border: 1px solid #dadae5;
+}
  .cmp-product-thumb .thumb-inner {
 	 -webkit-transition: all .5s ease;
 	 -moz-transition: all .5s ease;
