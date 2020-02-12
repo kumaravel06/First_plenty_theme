@@ -1077,10 +1077,7 @@
 	 font-family: Merienda, cursive;
 	 font-size: 32px;
 }
-.cmp-product-thumb .thumb-background{
-	    top: unset;
-	    border: 1px solid #dadae5;
-}
+
  .cmp-product-thumb .thumb-inner {
 	 -webkit-transition: all .5s ease;
 	 -moz-transition: all .5s ease;
@@ -1089,6 +1086,7 @@
 	 transition: all .5s ease;
 	 min-height: 300px;
 	 padding: 6px;
+	 border: 1px solid #dadae5;
 }
 .cmp-product-thumb .thumb-inner:after, .cmp-product-thumb .thumb-inner:before {
 	 content: '';
