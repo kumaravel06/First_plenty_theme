@@ -1215,9 +1215,21 @@
  .cmp-product-thumb:hover .thumb-title {
 	 color: #f47795;
 }
-.product--box .product--price .price--default, .cmp-product-thumb .thumb-title{
+
+ .cmp-product-thumb .price{
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 20px;
+    line-height: 1.25rem;
+    display: inline-block;
+    color: #034c4f;
+    font-weight: 700;
+}
+.product--box .price .price--default, .cmp-product-thumb .thumb-title{
 	 font-size: 14px;
 }
+
+
  .is--ctl-register .zig-zag {
 	 top: 0;
 }
