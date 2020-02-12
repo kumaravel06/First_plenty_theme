@@ -1069,7 +1069,7 @@
 	 font-size: 32px;
 }
 .cmp-product-thumb .thumb-background{
-	    top: unset;
+	    top: 0px;
 	    border: 1px solid #dadae5;
 }
  .cmp-product-thumb .thumb-inner {
