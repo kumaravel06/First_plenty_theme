@@ -1024,8 +1024,17 @@
  .content--breadcrumb .breadcrumb--title {
 	 font: 700 16px Merienda, cursive;
 }
- .content-main--inner {
+ .page-content {
 	 padding: 0 1.875rem 1rem;
+}
+
+  .page-body{ 
+    max-width: 1260px;
+    max-width: 78.75rem;
+    background: #fff;
+    margin: 0 auto;
+    width: 100%;
+   box-shadow: 0 0 4px 1px #dadae5;
 }
  .product--box .product--badges .badge--newcomer {
 	 background: ;
