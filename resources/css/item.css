@@ -1079,6 +1079,7 @@
 }
 .cmp-product-thumb .thumb-background {
 	border: 1px solid #dadae5;
+	top: unset;
 }
  .cmp-product-thumb .thumb-inner {
 	 -webkit-transition: all .5s ease;
@@ -1089,6 +1090,7 @@
 	 min-height: 300px;
 	 padding: 6px;
 	 border: 1px solid #dadae5;
+	 top: unset;
 }
 .cmp-product-thumb .thumb-inner:after, .cmp-product-thumb .thumb-inner:before {
 	 content: '';
