@@ -1054,16 +1054,6 @@
   background-color: transparent;
 }
 
-.list-itemsperpage{
-    max-width: 290px;
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-}
-.custom-select{
-   border: 1px solid #dadae5;
-   color: #034c4f;
-}
 
  .product--box .product--badges .badge--newcomer {
 	 background: ;
