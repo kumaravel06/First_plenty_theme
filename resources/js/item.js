@@ -1,4 +1,5 @@
-window.onload(function () {
+window.addEventListener('load', function() {
+   
     $(document).ready( function() {
    
     $('.custom-select').click(function(){
