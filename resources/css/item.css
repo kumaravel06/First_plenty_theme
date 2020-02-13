@@ -1042,6 +1042,18 @@
 	 background-color: #fff;
 }
 
+.list-controls .list-itemsperpage{
+    width: 20%;
+    float: right;
+}
+.custom-select{
+   color: #069399;
+    border: 1px solid #dadae5;
+}
+.custom-select:hover{
+    color: #f47795;
+    border: 1px solid #f47795;
+}
   #page-body{ 
     max-width: 1260px;
     max-width: 78.75rem;
