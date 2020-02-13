@@ -1018,10 +1018,10 @@
  .pricing {
 	 padding: 20px 0 50px !important;
 }
- .content--breadcrumb {
-	 border-bottom: 1px dashed ;
+ .parallax-img-container{
+	 border-bottom: 1px dashed #069399;
 }
- .content--breadcrumb .breadcrumb--title {
+ .parallax-img-container .category-title {
 	 font: 700 16px Merienda, cursive;
 }
  .page-content {
