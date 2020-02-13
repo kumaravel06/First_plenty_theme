@@ -1050,6 +1050,12 @@
    color: #069399;
     border: 1px solid #dadae5;
 }
+.custom-select:focus {
+    border-color: unset;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #069399;
+}
 .custom-select:hover{
     color: #f47795;
     border: 1px solid #f47795;
@@ -1062,7 +1068,7 @@
     width: 100%;
    box-shadow: 0 0 4px 1px #dadae5;
 }
-#vue-app{
+body>#vue-app{
   background-color: transparent;
 }
 
