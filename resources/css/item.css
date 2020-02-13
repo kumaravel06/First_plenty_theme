@@ -1025,6 +1025,9 @@
 	 font: 700 16px Merienda, cursive;
 	 color:#f47795;;
 }
+.list-controls .list-controls-inner {
+	margin: 2rem 0rem 1.25rem 0rem;
+}
  .list-controls .list-controls-inner{
     border-radius: 3px;
     background-clip: padding-box;
