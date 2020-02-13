@@ -1023,7 +1023,19 @@
 }
  .parallax-img-container .category-title {
 	 font: 700 16px Merienda, cursive;
+	 color:#f47795;;
 }
+ .list-controls .list-controls-inner{
+    border-radius: 3px;
+    background-clip: padding-box;
+    margin: 0px 0px 20px 0px;
+    margin: 0rem 0rem 1.25rem 0rem;
+    padding-top: 10px;
+    padding-top: .625rem;
+    border: 1px solid #dadae5;
+    background: #f5f5f8;
+  }
+
  .page-content {
 	 padding: 0 1.875rem 1rem;
 }
