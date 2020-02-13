@@ -1025,14 +1025,12 @@
 	 font: 700 16px Merienda, cursive;
 	 color:#f47795;;
 }
-.list-controls .list-controls-inner {
-	margin: 2rem 0rem 1.25rem 0rem;
-}
+
  .list-controls .list-controls-inner{
     border-radius: 3px;
     background-clip: padding-box;
     margin: 0px 0px 20px 0px;
-    margin: 0rem 0rem 1.25rem 0rem;
+    margin: 2rem 0rem 1.25rem 0rem;
     padding-top: 10px;
     padding-top: .625rem;
     border: 1px solid #dadae5;
@@ -1041,16 +1039,18 @@
 
  .page-content {
 	 padding: 0 1.875rem 1rem;
-	 background: #fff;
 }
 
   #page-body{ 
     max-width: 1260px;
     max-width: 78.75rem;
-    background: #fff;
+    background-color: #fff;
     margin: 0 auto;
     width: 100%;
    box-shadow: 0 0 4px 1px #dadae5;
+}
+#vue-app{
+  background-color: transparent;
 }
  .product--box .product--badges .badge--newcomer {
 	 background: ;
@@ -1103,7 +1103,6 @@
 	 -ms-transition: all .5s ease;
 	 -o-transition: all .5s ease;
 	 transition: all .5s ease;
-	 min-height: 300px;
 	 padding: 6px;
 	 border: 1px solid #dadae5;
 	 top: unset;
