@@ -1,4 +1,4 @@
-window.load(function () {
+window.onload(function () {
     $(document).ready( function() {
    
     $('.custom-select').click(function(){
