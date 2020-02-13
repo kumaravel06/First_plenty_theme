@@ -1,4 +1,3 @@
-var $ = jQuery.noConflict();
 $(document).ready( function() {
    $('.custom-select').click(function(){
     console.log('testttttt');
