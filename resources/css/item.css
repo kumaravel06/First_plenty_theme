@@ -1078,6 +1078,7 @@ body>#vue-app{
 	color: #069399;
 	font-size: 14px;
 	font-weight: 500;
+	font-family: Merienda,cursive;
 	border: 1px solid #dadae5;
 }
 .top-bar .controls-list>li{
