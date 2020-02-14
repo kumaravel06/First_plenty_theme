@@ -1065,6 +1065,7 @@
     background-color: #fff;
     margin: 0 auto;
     width: 100%;
+    margin-top:10px;
    box-shadow: 0 0 4px 1px #dadae5;
 }
 body>#vue-app{
