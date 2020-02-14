@@ -1069,6 +1069,7 @@
 }
 body>#vue-app{
   background-color: transparent;
+  margin-top: 40px;
 }
 
 
@@ -1096,7 +1097,7 @@ body>#vue-app{
 }
  .is--ctl-listing .emotion--banner-slider .banner-slider--title {
 	 padding: 6% 0 .625rem 55%;
-	 display: block;
+	 display: block;.nav
 	 width: 100%;
 	 position: absolute;
 	 top: 0;
@@ -1118,10 +1119,11 @@ body>#vue-app{
        background-color: #fff;	
 }
 .wrapper-main .navbar {
-       background-color: #fff;	
+       background-color: #fff;
+       border-bottom: unset;
 }
 .top-bar.fixed-top {
-	position:unset;
+	position:static;
 }
 .wrapper-main>nav.container-max {
 	display:none;
