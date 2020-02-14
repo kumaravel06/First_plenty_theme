@@ -1084,6 +1084,7 @@ body>#vue-app{
 .top-bar .controls-list>li a:not(.btn):hover{
 	color: #f47795;
     	border-color: #f47795;
+	background-color:#fff;
 }
 .top-bar .controls-list>li{
 	margin-right:10px;
