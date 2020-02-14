@@ -1081,6 +1081,10 @@ body>#vue-app{
 	font-family: Merienda,cursive;
 	border: 1px solid #dadae5;
 }
+.top-bar .controls-list>li a:not(.btn):hover{
+	color: #f47795;
+    	border-color: #f47795;
+}
 .top-bar .controls-list>li{
 	margin-right:10px;
 }
