@@ -1070,9 +1070,11 @@
 }
 body>#vue-app{
   background-color: transparent;
+  
+}
+#vue-top{
   margin-top: 40px;
 }
-
 
  .product--box .product--badges .badge--newcomer {
 	 background: ;
