@@ -1113,6 +1113,19 @@ body>#vue-app{
 	 font-family: Merienda, cursive;
 	 font-size: 32px;
 }
+
+.wrapper-main #page-header.top-bar{
+       background-color: #fff;	
+}
+.wrapper-main .navbar {
+       background-color: #fff;	
+}
+.top-bar.fixed-top {
+	position:unset;
+}
+.wrapper-main>nav.container-max {
+	display:none;
+}
 .cmp-product-thumb .thumb-background {
 	border: 1px solid #dadae5;
 	top: unset;
@@ -1205,6 +1218,8 @@ body>#vue-app{
 	 transition: box-shadow .3s, transform .3s .1s, -o-transform .3s .1s;
 	 transition: box-shadow .3s, transform .3s .1s, -ms-transform .3s .1s;
 }
+
+
  .product--box {
 	 position: relative;
 	 z-index: 0;
