@@ -18,14 +18,14 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
 	{
  
 	}
-	$this->getLoggr(__METHOD__)->error('PPPPPPPP', 'NNNNNNN');
+	$this->getLogger(__METHOD__)->error('PPPPPPPP', 'NNNNNNN');
 	public function boot(Twig $twig, Dispatcher $eventDispatcher)
     {
         $eventDispatcher->listen('IO.init.templates', function(Partial $partial)
         {
-	  $this->getLoggr(__METHOD__)->error('test', 'enter');
+	  $this->getLogger(__METHOD__)->error('test', 'enter');
 	  $partial->set('footer', 'BrandcrockSampleTheme::content.BrandcrockSampleThemeFooter');
-		 $this->getLoggr(__METHOD__)->error('No test', 'No enter');
+		 $this->getLogger(__METHOD__)->error('No test', 'No enter');
         },0);
 	return false;
     }
