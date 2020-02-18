@@ -11,6 +11,7 @@ use Plenty\Plugin\Log\Loggable;
 class BrandcrockSampleThemeServiceProvider extends ServiceProvider
 {
  use Loggable;
+	$this->getLogger(__METHOD__)->error('PPPPPPPP', 'NNNNNNN');
 	/**
 	 * Register the service provider.
 	 */
@@ -18,7 +19,7 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
 	{
  
 	}
-	$this->getLogger(__METHOD__)->error('PPPPPPPP', 'NNNNNNN');
+	
 	public function boot(Twig $twig, Dispatcher $eventDispatcher)
     {
         $eventDispatcher->listen('IO.init.templates', function(Partial $partial)
