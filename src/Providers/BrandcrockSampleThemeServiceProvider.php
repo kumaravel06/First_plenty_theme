@@ -28,6 +28,11 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
         $eventDispatcher->listen('IO.init.templates', function(Partial $partial) use ($enabledOverrides)
         {
 	  $partial->set('footer', 'Ceres::PageDesign.Partials.Footer');
+	if (in_array("page_design", $enabledOverrides) || in_array("all", $enabledOverrides))
+            {
+                $partial->set('page_design', 'BrandcrockSampleTheme::PageDesign.PageDesign');
+		 $this->getLogger(__METHOD__)->error('ITTT', $enabledOverrides);
+            }
 	  if (in_array("footer", $enabledOverrides) || in_array("all", $enabledOverrides))
             {
                 $partial->set('footer', 'BrandcrockSampleTheme::PageDesign.Partials.Footer');
