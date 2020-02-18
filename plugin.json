@@ -9,7 +9,7 @@
     "keywords"          :   ["plentymarkets", "plugins", "layout", "theme"],
     "price"             :   0,
     "type"              :   "theme",
-    "require"           :   [],
+    "require"           :   ["IO", "Ceres"],
     "serviceProvider"   :   "BrandcrockSampleTheme\\Providers\\BrandcrockSampleThemeServiceProvider",
     "dataProviders"     :
     [
