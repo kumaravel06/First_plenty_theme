@@ -21,23 +21,16 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
          
 	}
 	
-	public function boot(Twig $twig, Dispatcher $eventDispatcher, ConfigRepository $config)
+	public function boot(Twig $twig, Dispatcher $eventDispatcher)
     	{
 		
-	$enabledOverrides = explode(", ", $config->get("BrandcrockSampleTheme.templates.override"));
-        $eventDispatcher->listen('IO.init.templates', function(Partial $partial) use ($enabledOverrides)
+	
+        $eventDispatcher->listen('IO.init.templates', function(Partial $partial)
         {
-	  $partial->set('footer', 'Ceres::PageDesign.Partials.Footer');
-	if (in_array("page_design", $enabledOverrides) || in_array("all", $enabledOverrides))
-            {
-                $partial->set('page-design', 'BrandcrockSampleTheme::PageDesign.PageDesign');
-		 $this->getLogger(__METHOD__)->error('ITTT', $enabledOverrides);
-            }
-	  if (in_array("footer", $enabledOverrides) || in_array("all", $enabledOverrides))
-            {
-                $partial->set('footer', 'BrandcrockSampleTheme::PageDesign.Partials.Footer');
-		 $this->getLogger(__METHOD__)->error('IFF', $enabledOverrides);
-            }
+	
+                $partial->set('footer', 'BrandcrockSampleTheme::content.BrandcrockSampleThemeFooter');
+		 $this->getLogger(__METHOD__)->error('says', 'enter');
+ 
         },0);
 	return false;
     }
