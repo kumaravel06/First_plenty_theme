@@ -8,6 +8,7 @@ use Plenty\Plugin\Events\Dispatcher;
 use Plenty\Plugin\Templates\Twig;
 use Plenty\Plugin\Log\Loggable;
 use Plenty\Plugin\ConfigRepository;
+use IO\Helper\TemplateContainer;
  
 class BrandcrockSampleThemeServiceProvider extends ServiceProvider
 {
@@ -25,10 +26,11 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
     	{
 		
 	
-        $eventDispatcher->listen('IO.init.templates', function(Partial $partial)
+       $eventDispatcher->listen('IO.tpl.basket', function(TemplateContainer $container, $templateData)
         {
 	
-                $partial->set('footer', 'BrandcrockSampleTheme::content.BrandcrockSampleThemeFooter');
+		$container->setTemplate('BrandcrockSampleTheme::content.BrandcrockSampleThemeFooter');
+                
 		 $this->getLogger(__METHOD__)->error('says', 'enter');
  
         },0);
