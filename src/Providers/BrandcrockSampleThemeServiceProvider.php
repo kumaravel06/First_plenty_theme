@@ -9,8 +9,9 @@ use Plenty\Plugin\Templates\Twig;
 use Plenty\Plugin\Log\Loggable;
 use Plenty\Plugin\ConfigRepository;
 use IO\Helper\TemplateContainer;
+use Plenty\Modules\Webshop\Template\Providers\TemplateServiceProvider;
  
-class BrandcrockSampleThemeServiceProvider extends ServiceProvider
+class BrandcrockSampleThemeServiceProvider extends TemplateServiceProvider
 {
  use Loggable;
 	
@@ -24,16 +25,6 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
 	
 	public function boot(Twig $twig, Dispatcher $eventDispatcher)
     	{
-		
-	
-       $eventDispatcher->listen('IO.tpl.basket', function(TemplateContainer $container, $templateData)
-        {
-	
-		$container->setTemplate('BrandcrockSampleTheme::content.BrandcrockSampleThemeFooter');
-                
-		 $this->getLogger(__METHOD__)->error('says', 'enter');
- 
-        },0);
-	return false;
-    }
+		$this->overrideTemplate("Ceres::PageDesign.Partials.Footer","BrandcrockSampleTheme::BrandcrockSampleThemeFooter");
+        }
 }
