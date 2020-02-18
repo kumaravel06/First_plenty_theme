@@ -18,6 +18,7 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
 	{
  
 	}
+	$this->getLoggr(__METHOD__)->error('PPPPPPPP', 'NNNNNNN');
 	public function boot(Twig $twig, Dispatcher $eventDispatcher)
     {
         $eventDispatcher->listen('IO.init.templates', function(Partial $partial)
@@ -25,9 +26,6 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
 	  $this->getLoggr(__METHOD__)->error('test', 'enter');
 	  $partial->set('footer', 'BrandcrockSampleTheme::content.BrandcrockSampleThemeFooter');
 		 $this->getLoggr(__METHOD__)->error('No test', 'No enter');
-          $partial->set('header', 'BrandcrockSampleTheme::PageDesign.Partials.Header.Header');
-	  
-	  
         },0);
 	return false;
     }
