@@ -25,7 +25,7 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
     	{
 		
 	$enabledOverrides = explode(", ", $config->get("BrandcrockSampleTheme.templates.override"));
-        $eventDispatcher->listen('IO.init.templates', function(Partial $partial)
+        $eventDispatcher->listen('IO.init.templates', function(Partial $partial) use ($enabledOverrides)
         {
 	  $partial->set('footer', 'Ceres::PageDesign.Partials.Footer');
 	  if (in_array("footer", $enabledOverrides) || in_array("all", $enabledOverrides))
