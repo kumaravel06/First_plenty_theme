@@ -1,9 +1,10 @@
-{% import "Ceres::PageDesign.Macros.LayoutContainer" as LayoutContainer %}
+{% extends getPartial('footer') %}
 
-{% set footerContainer = LayoutContainer.show("Ceres::Footer") | trim %}
+
+{% block PartialFooter %}
 
 <div class="footer">
       <input type="text" name="nn_test" value="12345">
 </div>
 
-{{ dump() }}
+{% endblock %}
