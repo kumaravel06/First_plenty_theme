@@ -31,7 +31,8 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
 	  if (in_array("footer", $enabledOverrides) || in_array("all", $enabledOverrides))
             {
                 $partial->set('footer', 'BrandcrockSampleTheme::PageDesign.Partials.Footer');
-		 $this->getLogger(__METHOD__)->error('IFF', $config->get("BrandcrockSampleTheme.templates.override"));
+		  $test = $config->get("BrandcrockSampleTheme.templates.override");
+		 $this->getLogger(__METHOD__)->error('IFF', $test);
             }
         },0);
 	return false;
