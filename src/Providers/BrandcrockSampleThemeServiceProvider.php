@@ -24,9 +24,8 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
     {
         $eventDispatcher->listen('IO.init.templates', function(Partial $partial)
         {
-	  $this->getLogger(__METHOD__)->error('test', 'enter');
 	  $partial->set('footer', 'BrandcrockSampleTheme::content.BrandcrockSampleThemeFooter');
-		 $this->getLogger(__METHOD__)->error('No test', 'No enter');
+		 $this->getLogger(__METHOD__)->error('Calling', 'RRRRRRRR');
         },0);
 	return false;
     }
