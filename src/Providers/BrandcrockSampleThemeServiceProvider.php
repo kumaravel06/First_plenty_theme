@@ -22,6 +22,11 @@ class BrandcrockSampleThemeServiceProvider extends TemplateServiceProvider
 	{
          
 	}
+	public function boot(Twig $twig, Dispatcher $eventDispatcher)
+    	{
+		$this->overrideTemplate("Ceres::PageDesign.Partials.Footer","BrandcrockSampleTheme::content.BrandcrockSampleThemeFooter");
+		$this->overrideTemplate("Ceres::PageDesign.Partials.Header","BrandcrockSampleTheme::PageDesign.Partials.Header");
+        }
 	
 	
 }
