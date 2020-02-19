@@ -1158,7 +1158,7 @@ nav.navbar .container-max>div.row{
       padding-left: 25px;
 }
 .footer {
-    background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.75), rgba(0,0,0,0.5)), url("{{ plugin_path('BrandcrockSampleTheme') }}/images/cake.png");
+    background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.75), rgba(0,0,0,0.5)), url("../images/cake.png");
     background-position: bottom left;
     line-height:50px;
 }
@@ -1171,7 +1171,7 @@ nav.navbar .container-max>div.row{
     color: #f47795;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-.footer .fa-check{
+.footer .footer-features i{
     color:#069399;
 }
 .cmp-product-thumb .thumb-background {
