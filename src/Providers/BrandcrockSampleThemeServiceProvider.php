@@ -28,6 +28,7 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
         $eventDispatcher->listen('IO.init.templates', function(Partial $partial)
         {
            $partial->set('footer', 'BrandcrockSampleTheme::content.BrandcrockSampleThemeFooter');
+	   $partial->set('header', 'BrandcrockSampleTheme::Header');
         }, 0);
         return false;
         }
