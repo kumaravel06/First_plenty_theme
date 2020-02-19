@@ -11,7 +11,7 @@ use Plenty\Plugin\ConfigRepository;
 use IO\Helper\TemplateContainer;
 use Plenty\Modules\Webshop\Template\Providers\TemplateServiceProvider;
  
-class BrandcrockSampleThemeServiceProvider extends TemplateServiceProvider
+class BrandcrockSampleThemeServiceProvider extends ServiceProvider
 {
  use Loggable;
 	
@@ -25,6 +25,9 @@ class BrandcrockSampleThemeServiceProvider extends TemplateServiceProvider
 	
 	public function boot(Twig $twig, Dispatcher $eventDispatcher)
     	{
+		$dispatcher->listen('IO.init.templates', function (Partial $partial) {
+		  $partial->set('header', 'BrandcrockSampleTheme::PageDesign.Partials.Header.Header');
+		}
 		$this->overrideTemplate("Ceres::PageDesign.Partials.Footer","BrandcrockSampleTheme::content.BrandcrockSampleThemeFooter");
         }
 }
