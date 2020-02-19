@@ -1157,6 +1157,23 @@ nav.navbar .container-max>div.row{
       float: left;
       padding-left: 25px;
 }
+.footer {
+    background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.75), rgba(0,0,0,0.5)), url("{{ plugin_path('BrandcrockSampleTheme') }}/images/cake.png");
+    background-position: bottom left;
+    line-height:50px;
+}
+.footer .footer-features{
+    border-top: 1px solid transparent;
+    background-color: transparent;
+    max-width: 1170px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #f47795;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.footer .fa-check{
+    color:#069399;
+}
 .cmp-product-thumb .thumb-background {
 	border: 1px solid #dadae5;
 	top: unset;
