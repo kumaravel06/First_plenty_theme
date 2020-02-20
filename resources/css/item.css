@@ -1210,6 +1210,9 @@ a{
     border-radius: 3px;
     font-weight: 700;
 }
+small, .small, .btn-labeled, .basket-preview .totals{
+  font-size:100%;
+}
 .cmp-product-thumb .thumb-inner:after, .cmp-product-thumb .thumb-inner:before {
 	 content: '';
 	 position: absolute;
