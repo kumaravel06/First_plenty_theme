@@ -1188,6 +1188,28 @@ nav.navbar .container-max>div.row{
 	 border: 1px solid #dadae5;
 	 top: unset;
 }
+a{
+  color:#f47795;
+  background-color: transparent;
+}
+.modal-header{
+    color: #034c4f;
+    font-weight: 700 !important;
+    font-size: 1.5rem;
+ }
+.input-unit label, .input-unit .input-unit-label {
+  color:#034c4f;
+}
+.btn-primary {
+    background-image: linear-gradient(to bottom, #fbadc0 0%, #f47795 100%);
+    background-color: #fbadc0;
+    border: 0 none;
+    color: #fff;
+}
+.btn {
+    border-radius: 3px;
+    font-weight: 700;
+}
 .cmp-product-thumb .thumb-inner:after, .cmp-product-thumb .thumb-inner:before {
 	 content: '';
 	 position: absolute;
