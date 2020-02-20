@@ -17,7 +17,7 @@
             "key"           :"BrandcrockSampleTheme\\Containers\\BrandcrockSampleThemeContainer",
             "name"          :"BrandcrockSampleTheme - Stylesheet",
             "description"   :"Add changes to the CSS file"
-        }
+        },
         {
             "key"           :"BrandcrockSampleTheme\\Containers\\BrandcrockSampleContainerFooter",
             "name"          :"BrandcrockSampleTheme - Footer",
