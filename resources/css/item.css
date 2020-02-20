@@ -1213,6 +1213,10 @@ a{
 small, .small, .btn-labeled, .basket-preview .totals{
   font-size:100%;
 }
+.btn-primary:hover{
+  background: #f47795;
+  color: #fff;
+}
 .cmp-product-thumb .thumb-inner:after, .cmp-product-thumb .thumb-inner:before {
 	 content: '';
 	 position: absolute;
