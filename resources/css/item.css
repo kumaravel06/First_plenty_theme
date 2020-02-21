@@ -1176,6 +1176,12 @@ nav.navbar .container-max>div.row{
 .footer .footer-features i{
     color:#069399 !important;
 }
+.footer:after{
+  content:'';  
+  background: linear-gradient(-135deg, #fff 16px, transparent 0), linear-gradient(135deg, #fff 16px, transparent 0);
+  width: 100%;
+  height: 32px;
+}
 .bc_contact{
     margin: 0 auto;
     padding-top: 40px;
