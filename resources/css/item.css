@@ -1234,12 +1234,15 @@ nav.navbar .container-max>div.row{
    color: #f47795;
    background:none;
 }
-.page-content checkout h3{
+h3{
     font-weight: 700;
     color: #034c4f;
     padding: 1.25rem 0rem 1.25rem 0rem;
     margin: 0;
     font-size: 1.625rem;
+}
+a:hover{
+    color:#f47795;
 }
 .cmp-product-thumb .thumb-background {
 	border: 1px solid #dadae5;
