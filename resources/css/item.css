@@ -15,6 +15,8 @@
 }
  body {
 	 background: #fff;
+	 font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	 
 }
  .slider:after {
 	 background: linear-gradient(-45deg,#fff 16px,transparent 0), linear-gradient(45deg,#fff 16px,transparent 0);
@@ -1235,7 +1237,6 @@ a{
  }
 .input-unit label, .input-unit .input-unit-label .form-check-label {
   color:#09dae3;
-  text-transform:lowercase;
 }
 .btn-primary {
     background-image: linear-gradient(to bottom, #fbadc0 0%, #f47795 100%);
