@@ -7,6 +7,6 @@ window.addEventListener('load', function() {
      $('option').css('color','#069399');
       console.log('Newwww');
   });
-    $('.footer').prepend('<div class="contact"><img src="../images/contact.png" alt="contact"><h1>Contact Us</h1></div>');
+    $('.footer').prepend('<div class="contact"><img src="{{plugin_path('BrandcrockSampleTheme')}}/images/contact.png" alt="contact"><h1>Contact Us</h1></div>');
 });
 });
