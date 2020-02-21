@@ -1209,6 +1209,17 @@ nav.navbar .container-max>div.row{
     background: #fff;
     color: #f47795;
 }
+.footer-column{
+   display:none;
+}
+#mainNavbarCollapsable ul.mainmenu{
+   color: #069399;
+   font-size: 16px;
+}
+#mainNavbarCollapsable ul.mainmenu:hover{
+   color: #f47795;
+   background:none;
+}
 .cmp-product-thumb .thumb-background {
 	border: 1px solid #dadae5;
 	top: unset;
