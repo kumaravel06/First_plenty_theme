@@ -1203,6 +1203,10 @@ nav.navbar .container-max>div.row{
 .footer small{
    color:#fff;
 }
+.footer .social-icons .fa:hover {
+    background: #fff;
+    color: #f47795;
+}
 .cmp-product-thumb .thumb-background {
 	border: 1px solid #dadae5;
 	top: unset;
