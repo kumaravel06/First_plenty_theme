@@ -1190,7 +1190,7 @@ nav.navbar .container-max>div.row{
     background: rgba(255,255,255,0.1);
     color: #fff;	
 }
-[class^="fa-"], [class*=" fa-"]{
+.social-icons [class*="fa fa-"]{
     font-family: Merienda, cursive;
     speak: none;
     font-style: normal;
