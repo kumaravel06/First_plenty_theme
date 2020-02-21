@@ -1212,6 +1212,7 @@ a{
 }
 small, .small, .btn-labeled, .basket-preview .totals{
   font-size:100%;
+  color:#fff;
 }
 .btn-primary:hover{
   background: #f47795;
