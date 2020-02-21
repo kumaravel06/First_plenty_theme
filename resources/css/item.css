@@ -1179,6 +1179,28 @@ nav.navbar .container-max>div.row{
     padding-top: 40px;
     margin-left: 43%;
 }
+.footer .social-icons .icon{
+    padding: 12px;
+    font-size: 21px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    color: #fff;	
+}
+[class^="icon--"], [class*=" icon--"]{
+    font-family: Merienda, cursive;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 .cmp-product-thumb .thumb-background {
 	border: 1px solid #dadae5;
 	top: unset;
