@@ -1267,7 +1267,10 @@ a{
     font-weight: 700 !important;
     font-size: 1.5rem;
  }
-.input-unit label, .input-unit .input-unit-label .form-check-label {
+.input-unit label, .input-unit .input-unit-label {
+  color:#09dae3;
+}
+.form-check .form-check-label{
   color:#09dae3;
 }
 .btn-primary {
