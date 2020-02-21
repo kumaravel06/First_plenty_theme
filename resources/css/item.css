@@ -1176,7 +1176,7 @@ nav.navbar .container-max>div.row{
 .footer .footer-features i{
     color:#069399 !important;
 }
-.footer:after{
+.footer:before{
   content:'';  
   background: linear-gradient(-135deg, #fff 16px, transparent 0), linear-gradient(135deg, #fff 16px, transparent 0);
   width: 100%;
