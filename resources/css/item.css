@@ -1227,8 +1227,11 @@ nav.navbar .container-max>div.row{
 	 top: unset;
 }
 a{
-  color:#f47795 !important;
+  color:#f47795;
   background-color: transparent;
+}
+.footer a{
+  color:#f47795;
 }
 .modal-header{
     color: #034c4f;
