@@ -1174,6 +1174,11 @@ nav.navbar .container-max>div.row{
 .footer .footer-features i{
     color:#069399 !important;
 }
+.contact{
+   margin: 0 auto;
+    padding-top: 40px;
+    margin-left: 43%;
+}
 .cmp-product-thumb .thumb-background {
 	border: 1px solid #dadae5;
 	top: unset;
