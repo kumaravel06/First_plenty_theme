@@ -10,6 +10,7 @@ use Plenty\Plugin\Log\Loggable;
 use Plenty\Plugin\ConfigRepository;
 use IO\Helper\TemplateContainer;
 use Plenty\Modules\Webshop\Template\Providers\TemplateServiceProvider;
+use use IO\Helper\TemplateContainer;
  
 class BrandcrockSampleThemeServiceProvider extends ServiceProvider
 {
@@ -20,7 +21,11 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-         
+         	$eventDispatcher->listen('IO.tpl.basket', function(TemplateContainer $container, $templateData)
+		{
+		    $container->setTemplate('BrandcrockSampleTheme::content.BrandcrockSampleThemeHeader');
+		    return false;
+		}, 0);
 	}
 	
 	
