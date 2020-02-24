@@ -1227,32 +1227,6 @@ nav.navbar .container-max>div.row{
 .footer-column{
    display:none;
 }
-.list-inline-item .control-search{
-    position: absolute;
-    top: 85PX;
-    left: 0px;
-    z-index: 1;
-    width: 20%;	
-}
-.list-inline-item .control-user{
-    position: absolute;
-    top: 85PX;
-    z-index: 1;
-    right: 60PX;
-}
-.list-inline-item .control-wish-list{
-    position: absolute;
-    top: 85PX;
-    z-index: 1;
-    right: 300PX;
-}
-.list-inline-item .control-basket{
-    position: absolute;
-    top: 85PX;
-    z-index: 1;
-    right: -50PX;
-}
-
 #mainNavbarCollapsable ul.mainmenu{
    color: #069399;
    font-size: 16px;
