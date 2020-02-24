@@ -1252,13 +1252,7 @@ nav.navbar .container-max>div.row{
     z-index: 1;
     right: -50PX;
 }
-button.btn.btn-primary.btn-appearance.btn-medium.btn-only-icon-xs-down{
-    color: #069399;
-    border: 1px solid #dadae5;
-    background-image: linear-gradient(to bottom, #fff 0%, #f8f8fa 100%);
-    border-radius: 3px;
-	
-}
+
 .page-content.checkout{
   color:#09dae3;
 }
