@@ -1234,7 +1234,7 @@ nav.navbar .container-max>div.row{
     z-index: 1;
     width: 20%;	
 }
-.list-inline-item .control-user{
+.top-bar .controls-list .control-user{
     position: absolute;
     top: 85PX;
     z-index: 1;
