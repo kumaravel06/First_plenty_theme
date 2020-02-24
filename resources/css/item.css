@@ -1304,6 +1304,11 @@ small, .small, .btn-labeled, .basket-preview .totals{
     background-image: linear-gradient(to bottom, #fff 0%, #f8f8fa 100%);
     font-size: 14px;
 }
+.checkout .btn:not(:disabled):not(.disabled):hover{
+    background: #fff;
+    color: #f47795;
+    border-color: #f47795;
+}
 
 .cmp-product-thumb .thumb-inner:after, .cmp-product-thumb .thumb-inner:before {
 	 content: '';
