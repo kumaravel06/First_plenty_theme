@@ -21,11 +21,7 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-         	$eventDispatcher->listen('IO.tpl.basket', function(TemplateContainer $container, $templateData)
-		{
-		    $container->setTemplate('BrandcrockSampleTheme::content.BrandcrockSampleThemeHeader');
-		    return false;
-		}, 0);
+         
 	}
 	
 	
