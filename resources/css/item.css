@@ -1298,13 +1298,13 @@ small, .small, .btn-labeled, .basket-preview .totals{
 .page-content.basket, .page-content.checkout, .page-content.contact, .page-content.myaccount{
   color: #069399 !important;
 }
-.checkout .btn:not(:disabled):not(.disabled){
+.myaccount .checkout .btn:not(:disabled):not(.disabled){
     border: 1px solid #dadae5;
     color: #069399;
     background-image: linear-gradient(to bottom, #fff 0%, #f8f8fa 100%);
     font-size: 14px;
 }
-.checkout .btn:not(:disabled):not(.disabled):hover{
+.myaccount .checkout .btn:not(:disabled):not(.disabled):hover{
     background: #fff;
     color: #f47795;
     border-color: #f47795;
