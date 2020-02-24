@@ -1233,7 +1233,7 @@ nav.navbar .container-max>div.row{
    color: #f47795;
    background:none;
 }
-h3{
+h3, h4{
     font-weight: 700;
     color: #034c4f;
     padding: 1.25rem 0rem 1.25rem 0rem;
@@ -1312,7 +1312,9 @@ small, .small, .btn-labeled, .basket-preview .totals{
 b, strong{
    color:#034c4f;
 }
-
+.text-muted {
+    color: #069399 !important;
+}
 .cmp-product-thumb .thumb-inner:after, .cmp-product-thumb .thumb-inner:before {
 	 content: '';
 	 position: absolute;
