@@ -1234,7 +1234,7 @@ nav.navbar .container-max>div.row{
     z-index: 1;
     width: 20%;	
 }
-.top-bar .controls-list .control-user{
+.list-inline-item .control-user{
     position: absolute;
     top: 85PX;
     z-index: 1;
@@ -1253,9 +1253,6 @@ nav.navbar .container-max>div.row{
     right: -50PX;
 }
 
-.page-content .checkout{
-  color:#09dae3;
-}
 #mainNavbarCollapsable ul.mainmenu{
    color: #069399;
    font-size: 16px;
