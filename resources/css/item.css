@@ -1296,7 +1296,7 @@ small, .small, .btn-labeled, .basket-preview .totals{
   border-top:1px solid #dadae5;
 }
 .checkout{
-  color: #069399;
+  color: #069399 !important;
 }
 .btn .btn-primary .btn-appearance .btn-medium. btn-only-icon-xs-down{	
     border-radius: 3px;
