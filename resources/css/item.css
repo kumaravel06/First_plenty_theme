@@ -1297,7 +1297,6 @@ small, .small, .btn-labeled, .basket-preview .totals{
 }
 .page-content.basket, .page-content.checkout, .page-content.contact, .page-content.myaccount{
   color: #069399 !important;
-  font-family: Merienda,cursive;
 }
 .checkout .btn:not(:disabled):not(.disabled){
     border: 1px solid #dadae5;
@@ -1309,6 +1308,9 @@ small, .small, .btn-labeled, .basket-preview .totals{
     background: #fff;
     color: #f47795;
     border-color: #f47795;
+}
+b, strong{
+   color:#034c4f;
 }
 
 .cmp-product-thumb .thumb-inner:after, .cmp-product-thumb .thumb-inner:before {
