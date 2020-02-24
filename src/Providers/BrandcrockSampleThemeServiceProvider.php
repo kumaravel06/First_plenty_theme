@@ -10,7 +10,7 @@ use Plenty\Plugin\Log\Loggable;
 use Plenty\Plugin\ConfigRepository;
 use IO\Helper\TemplateContainer;
 use Plenty\Modules\Webshop\Template\Providers\TemplateServiceProvider;
-use use IO\Helper\TemplateContainer;
+use IO\Helper\TemplateContainer;
  
 class BrandcrockSampleThemeServiceProvider extends ServiceProvider
 {
