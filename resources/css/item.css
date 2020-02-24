@@ -1297,6 +1297,7 @@ small, .small, .btn-labeled, .basket-preview .totals{
 }
 .page-content.basket, .page-content.checkout, .page-content.contact, .page-content.myaccount{
   color: #069399 !important;
+  font-family: Merienda,cursive;
 }
 .checkout .btn:not(:disabled):not(.disabled){
     border: 1px solid #dadae5;
