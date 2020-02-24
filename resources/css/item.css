@@ -1298,13 +1298,13 @@ small, .small, .btn-labeled, .basket-preview .totals{
 .checkout{
   color: #069399 !important;
 }
-.btn .btn-primary .btn-appearance .btn-medium. btn-only-icon-xs-down{	
-    border-radius: 3px;
-    background-image: linear-gradient(to bottom, #fff 0%, #f8f8fa 100%);
-    color: #069399;
-    font-weight: 700;
+.btn:not(:disabled):not(.disabled){
     border: 1px solid #dadae5;
+    color: #069399;
+    background-image: linear-gradient(to bottom, #fff 0%, #f8f8fa 100%);
+    font-size: 14px;
 }
+
 .cmp-product-thumb .thumb-inner:after, .cmp-product-thumb .thumb-inner:before {
 	 content: '';
 	 position: absolute;
