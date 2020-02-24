@@ -1295,6 +1295,16 @@ small, .small, .btn-labeled, .basket-preview .totals{
 .copyright{
   border-top:1px solid #dadae5;
 }
+.checkout{
+  color:	
+}
+.btn .btn-primary .btn-appearance .btn-medium. btn-only-icon-xs-down{	
+    border-radius: 3px;
+    background-image: linear-gradient(to bottom, #fff 0%, #f8f8fa 100%);
+    color: #069399;
+    font-weight: 700;
+    border: 1px solid #dadae5;
+}
 .cmp-product-thumb .thumb-inner:after, .cmp-product-thumb .thumb-inner:before {
 	 content: '';
 	 position: absolute;
