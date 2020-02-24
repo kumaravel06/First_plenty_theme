@@ -1259,6 +1259,9 @@ button.btn.btn-primary.btn-appearance.btn-medium.btn-only-icon-xs-down{
     border-radius: 3px;
 	
 }
+.page-content.checkout{
+  color:#09dae3;
+}
 #mainNavbarCollapsable ul.mainmenu{
    color: #069399;
    font-size: 16px;
