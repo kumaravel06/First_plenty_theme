@@ -1298,7 +1298,7 @@ small, .small, .btn-labeled, .basket-preview .totals{
 .checkout{
   color: #069399 !important;
 }
-.btn:not(:disabled):not(.disabled){
+.checkout .btn:not(:disabled):not(.disabled){
     border: 1px solid #dadae5;
     color: #069399;
     background-image: linear-gradient(to bottom, #fff 0%, #f8f8fa 100%);
