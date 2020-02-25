@@ -1151,11 +1151,17 @@ body>#vue-app{
 .wrapper-main>nav.container-max {
 	display:none;
 }
-nav.navbar .container-max>div.row{
-       flex-direction: column;
+.brand-wrapper{
+	position:relative;
+	transform: unset;
+	
 }
+.navbar-brand{
+     float:none !important;
+}
+
 #mainNavbarCollapsable ul.mainmenu{
-      float: left;
+      float: left !important;
       padding-left: 25px;
 }
 .footer {
