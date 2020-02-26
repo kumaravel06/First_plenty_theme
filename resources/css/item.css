@@ -1073,6 +1073,7 @@
 }
 body>#vue-app{
   background-color: transparent;
+  margin-top: 10px;
 }
 .top-bar .controls-list>li a:not(.btn)
 {
