@@ -1073,7 +1073,7 @@
 }
 body>#vue-app{
   background-color: transparent;
-  margin-top: 10px;
+  margin-top: 10px !imporatnt;
 }
 .top-bar .controls-list>li a:not(.btn)
 {
@@ -1155,6 +1155,7 @@ body>#vue-app{
 .brand-wrapper{
 	position:relative;
 	transform: unset;
+	margin-right:40%;
 	
 }
 .navbar-brand{
