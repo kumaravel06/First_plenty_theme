@@ -1225,7 +1225,15 @@ li .list-inline-item .dropdown .control-languages a:after{
     margin-left: 43%;
 }
 .bc_contact h1{
-   border-bottom:none;
+    border-bottom:none;
+    font-size: xx-large;
+    font-weight: 900;
+    line-height: 30px;
+    font-family: 'Merienda', cursive;
+    color: #fff;
+    padding: 0;
+    letter-spacing: 3px;
+	
 }
 .footer .social-icons .fa{
     padding: 12px;
