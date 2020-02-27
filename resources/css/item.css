@@ -1166,6 +1166,16 @@ body>#vue-app{
       float: left !important;
       padding-left: 25px;
 }
+li.list-inline-item.dropdown.control-languages.a:after{
+    content: '\f0d7';
+    font-size: inherit;
+    padding-left: .5em;
+    border: none;
+    float: right;
+    font-family: FontAwesome;
+    height: auto;
+    width: auto;	
+}
 .footer {
     background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.75), rgba(0,0,0,0.5)), url("../images/cake.png");
     background-position: bottom left;
