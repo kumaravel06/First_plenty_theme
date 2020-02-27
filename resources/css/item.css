@@ -1069,11 +1069,23 @@
     margin: 0 auto;
     width: 100%;
     margin-top:10px;
-   box-shadow: 0 0 4px 1px #dadae5;
+   box-shadow: 0 0 4px 1px #dadae5; 
+	  margin-bottom:2px;
 }
 body>#vue-app{
   background-color: transparent;
   margin-top: 10px !important;
+}
+h1{
+    border-bottom: 1px dashed #069399;
+    font: 700 20px Merienda, cursive;
+    color: #f47795;
+    height: 40px;
+    padding: 0rem 2.5rem 0rem 2.5rem;
+    margin-top: 10px;	
+}
+hr .my-5{
+   margin-bottom: 0 !important;
 }
 .top-bar .controls-list>li a:not(.btn)
 {
