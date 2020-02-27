@@ -1166,7 +1166,7 @@ body>#vue-app{
       float: left !important;
       padding-left: 25px;
 }
-li.list-inline-item.dropdown.control-languages.a:after{
+li .list-inline-item .dropdown .control-languages a:after{
     content: '\f0d7';
     font-size: inherit;
     padding-left: .5em;
