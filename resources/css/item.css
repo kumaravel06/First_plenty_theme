@@ -1270,6 +1270,9 @@ h3, h4{
     margin: 0;
     font-size: 1.625rem;
 }
+row mt-3 hr, hr .my-5{
+    border-top:none;
+}
 a:hover{
     color:#f47795;
 }
