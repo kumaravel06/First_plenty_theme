@@ -1072,6 +1072,9 @@
    box-shadow: 0 0 4px 1px #dadae5; 
 	  margin-bottom:2px;
 }
+.category-title{
+   border-bottom:unset;	
+}
 body>#vue-app{
   background-color: transparent;
   margin-top: 10px !important;
