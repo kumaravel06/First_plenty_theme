@@ -10,7 +10,7 @@ window.addEventListener('load', function() {
     $('.footer').prepend(bc_contact);
     $('.copyright').prepend('<div class="social-icons"><a href="" class="fa fa-facebook" target="_blank"></a><a href="" class="fa fa-twitter" target="_blank"></a><a href="" class="fa fa-instagram" target="_blank"></a><a href="" class="fa fa-google-plus" target="_blank"></a></div>');   
     $('.ddown').click(function(){
-    $('.ddown').css({
+    $(this).css({
        'background-color':'#fbadc0',
        'background-image':'linear-gradient(to bottom, #fbadc0 0%, #f47795 100%)',
        'font-weight':'700',
