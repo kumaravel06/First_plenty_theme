@@ -1279,6 +1279,8 @@ li .list-inline-item .dropdown .control-languages a:after{
 
 #mainNavbarCollapsable ul.mainmenu>li>ul{
    width: 100%;
+   min-width: 160px;
+    border: 1px solid #dadae5;
 }
 #mainNavbarCollapsable ul.mainmenu>li>ul>li{
     color:#069399;
