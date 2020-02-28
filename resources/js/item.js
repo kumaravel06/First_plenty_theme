@@ -1,6 +1,7 @@
 window.addEventListener('load', function() {
    
     $(document).ready( function() {
+       $("#page-body hr").eq(0).remove();
    
     $('.custom-select').click(function(){
      $('option').css('color','#069399');
