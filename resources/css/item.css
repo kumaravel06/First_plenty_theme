@@ -1360,7 +1360,7 @@ small, .small, .btn-labeled, .basket-preview .totals{
     font-size: 14px;
 }
 .checkout .btn:not(:disabled):not(.disabled):hover, .myaccount .btn:not(:disabled):not(.disabled):hover{
-    background: #fff;
+    background: #fff !important;
     color: #f47795;
     border-color: #f47795;
 }
