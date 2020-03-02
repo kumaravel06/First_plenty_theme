@@ -1081,7 +1081,7 @@ body>#vue-app{
 h1{
     border-bottom: 1px dashed #069399;
     font: 700 20px Merienda, cursive;
-    color: #f47795;
+    color: #f47795 !important;
     height: 40px;
     padding: 0rem 2.5rem 0rem 2.5rem;
     margin-top: 10px;	
@@ -1360,12 +1360,9 @@ small, .small, .btn-labeled, .basket-preview .totals{
     font-size: 14px;
 }
 .checkout .btn:not(:disabled):not(.disabled):hover, .myaccount .btn:not(:disabled):not(.disabled):hover{
-    background: #fff !important;
+    background-color: unset;
     color: #f47795;
     border-color: #f47795;
-}
-.row .mb-5 h1, row mt-3 h1{
-  color:#f47795;
 }
 b, strong{
    color:#034c4f;
