@@ -1364,6 +1364,9 @@ small, .small, .btn-labeled, .basket-preview .totals{
     color: #f47795;
     border-color: #f47795;
 }
+.row .mb-5 h1, row mt-3 h1{
+  color:#f47795;
+}
 b, strong{
    color:#034c4f;
 }
