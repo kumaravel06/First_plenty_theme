@@ -1364,6 +1364,9 @@ small, .small, .btn-labeled, .basket-preview .totals{
     color: #f47795;
     border-color: #f47795;
 }
+.navbar-brand img{
+   max-height: unset;	
+}
 b, strong{
    color:#034c4f;
 }
