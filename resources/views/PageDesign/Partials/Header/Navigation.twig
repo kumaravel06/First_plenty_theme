@@ -7,7 +7,22 @@
 <nav class="navbar{% if useMegaMenu %} megamenu{%endif%}">
     <div class="container-max">
         <div class="row mx-0">
-            <div class="brand-wrapper" {% if showHeaderNavBar == "side" %}style="position: relative"{% endif %}>
+            <div class="col-sm-5">
+                   <li class="list-inline-item control-search">
+                        <a class="anicon anicon-search-xcross"
+                           aria-label="toggle search"
+                           data-toggle="collapse"
+                           href="#searchBox"
+                           aria-expanded="false"
+                           aria-controls="searchBox"
+                           data-parent="#controlsList">
+                            <span class="anicon-search-item" aria-hidden="true"></span>
+                        </a>
+                    </li>
+            
+             </div>
+            
+            <div class="brand-wrapper col-sm-3" {% if showHeaderNavBar == "side" %}style="position: relative"{% endif %}>
                 <a class="navbar-brand" href="{{ homepageURL }}">
                     {% if ('http' in companyLogo) or ('layout/' in companyLogo) %}
                         <img alt="{{ companyName }}" src="{{ companyLogo }}" class="img-fluid" />
@@ -20,19 +35,8 @@
                     &#9776;
                 </button>
             </div>
-            <div>
-            <ul class="text-center text-sm-left">
-           <li class="list-inline-item control-search">
-                        <a class="anicon anicon-search-xcross"
-                           aria-label="toggle search"
-                           data-toggle="collapse"
-                           href="#searchBox"
-                           aria-expanded="false"
-                           aria-controls="searchBox"
-                           data-parent="#controlsList">
-                            <span class="anicon-search-item" aria-hidden="true"></span>
-                        </a>
-                    </li>
+            <div class="col-sm-4">
+            <ul id="controlsList" class="controls-list list-inline">
                     {% if "wish-list" in enabledRoutes or "all" in enabledRoutes %}
                         <li class="list-inline-item control-wish-list">
                             <wish-list-count>
