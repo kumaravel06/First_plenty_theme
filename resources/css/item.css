@@ -1166,12 +1166,6 @@ hr .my-5{
 .wrapper-main>nav.container-max {
 	display:none;
 }
-.brand-wrapper{
-	position:relative;
-	transform: unset;
-	margin-right:40%;
-	
-}
 .navbar-brand{
      float:none !important;
 }
