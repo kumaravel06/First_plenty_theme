@@ -20,7 +20,12 @@ class BrandcrockSampleThemeServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-         
+          
+	}
+	
+	public function boot(Twig $twig, Dispatcher $dispatcher) {
+	  $dispatcher->listen('IO.init.templates', function (Partial $partial)
+	  $partial->set('header', 'CeresVanilla::PageDesign.Partials.Header.Header');
 	}
 	
 	
