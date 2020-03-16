@@ -22,7 +22,7 @@
             
              </div>
             
-            <div class="brand-wrapper col-sm-3" {% if showHeaderNavBar == "side" %}style="position: relative"{% endif %}>
+            <div class="brand-wrapper col-sm-2" {% if showHeaderNavBar == "side" %}style="position: relative"{% endif %}>
                 <a class="navbar-brand" href="{{ homepageURL }}">
                     {% if ('http' in companyLogo) or ('layout/' in companyLogo) %}
                         <img alt="{{ companyName }}" src="{{ companyLogo }}" class="img-fluid" />
@@ -35,7 +35,7 @@
                     &#9776;
                 </button>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-5">
             <ul id="controlsList" class="controls-list list-inline">
                     {% if "wish-list" in enabledRoutes or "all" in enabledRoutes %}
                         <li class="list-inline-item control-wish-list">
