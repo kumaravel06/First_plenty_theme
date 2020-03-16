@@ -1350,6 +1350,12 @@ small, .small, .btn-labeled, .basket-preview .totals{
 .copyright{
   border-top:1px solid #dadae5;
 }
+.breadcrumb {
+	display:none;
+}
+.bg-white{
+       color:unset;
+}
 .page-content.basket, .page-content.checkout, .page-content.contact, .page-content.myaccount{
   color: #069399 !important;
 }
@@ -1412,6 +1418,7 @@ b, strong{
 .cmp-product-thumb .thumb-inner:hover .add-to-basket-lg-container{
      border-color: transparent #f47795 transparent transparent;
  }
+
 
  .product--box:hover .product--detail-btn {
 	 box-shadow: 0 0 8px 0 #f76583, 0 0 0 0 rgba(255,255,255,0.19) inset;
