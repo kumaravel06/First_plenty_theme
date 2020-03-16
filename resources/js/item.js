@@ -10,7 +10,7 @@ window.addEventListener('load', function() {
   });
     var bc_contact = $('.bc_contact').clone();
     $('.footer').prepend(bc_contact);
-    $('.float-lg-right').prepend('<li><a href="/"><i aria-hidden="true" class="fa fa-home"></i> Home</a></li>');
+    $('.mainmenu').prepend('<li><a href="/"><i aria-hidden="true" class="fa fa-home"></i> Home</a></li>');
 
     $('.copyright').prepend('<div class="social-icons"><a href="" class="fa fa-facebook" target="_blank"></a><a href="" class="fa fa-twitter" target="_blank"></a><a href="" class="fa fa-instagram" target="_blank"></a><a href="" class="fa fa-google-plus" target="_blank"></a></div>');   
     $('.ddown fa-home').click(function(){
